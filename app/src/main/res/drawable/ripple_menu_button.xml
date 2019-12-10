@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/ripple_color">
+    <item android:id="@+id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/startle_theme"/>
+<!--            for rounded corners-->
+            <corners android:topRightRadius="14dp"
+                android:topLeftRadius="14dp"
+                android:bottomRightRadius="14dp"
+                android:bottomLeftRadius="14dp"/>
+
+        </shape>
+
+
+    </item>
+<!--    show the base colour when ripple activity is not going on-->
+    <item android:drawable="@drawable/ripple_base"/>
+
+</ripple>

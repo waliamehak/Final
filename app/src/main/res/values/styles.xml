@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--      made this theme to make the scare activity pop over the other activities-->
+    <style name="Theme.Transparent" parent="Theme.AppCompat.NoActionBar">
+<!--        //to get rid of everything at the top and see only the image-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+<!--        this is what lets u pop over other apps-->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>
