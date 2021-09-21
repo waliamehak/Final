@@ -1,1 +1,1 @@
-# Refer to [this pdf file for the details of my work] (https://github.com/waliamehak/finalAPP_CS855/blob/master/FinalProjectReport.pdf)
+# Refer to (https://github.com/waliamehak/finalAPP_CS855/blob/master/FinalProjectReport.pdf) for detailed explanation of my work.
